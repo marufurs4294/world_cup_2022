@@ -92,7 +92,10 @@ main{
     color: #000;
     border: 1px solid gray;
  }
- 
+
+  .blank-btn:hover{
+    color: red;
+  }
 .blogs{
     display: grid;
     grid-template-columns: repeat(3,1fr);
