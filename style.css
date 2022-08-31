@@ -126,3 +126,10 @@ main{
 .comment{
     padding-left: 25px;
 }
+
+/* View All */
+.view-all{
+    text-align: center;
+    margin: 30px 0;
+    display: none;
+}
