@@ -1,0 +1,36 @@
+.upcoming-blog{
+    padding: 40px 10px;
+}
+.flag-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 30px;
+}
+.flag-image img{
+    padding: 0 0;
+}
+.upcoming-content{
+    padding-top: 15px;
+    text-align: center;
+}
+.active-upcoming{
+    background-color: red;
+    color: #fff;
+    border: 0;
+}
+.active-upcoming:hover{
+    color: #000;
+}
+.deactive-blog{
+    background-color: #fff;
+    color: rgb(4, 4, 4);
+    border: 1px solid gray;
+}
+.deactive-blog:hover{
+    color: red;
+}
+.upcoming-content p{
+    padding-top: 10px;
+    color: rgb(95, 90, 90);
+}
