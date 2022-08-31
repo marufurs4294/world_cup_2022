@@ -1,0 +1,59 @@
+
+/* Tablet Device */
+@media(max-width: 768px){
+    /* Common Css */
+    .btn{
+    font-size: 15px;
+    padding: 5px 8px;
+    }
+    /* Top Banner */
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: end ;
+        border-radius: 15px;
+        padding-top:5px ;
+    }
+    .banner-content{
+        padding: 20px 0;
+    }
+    .banner-content h1{
+        font-size: 22px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    
+}
+
+/* Mobile Device */
+@media(max-width: 480px){
+    /* Common Css */
+    .btn{
+        color: aliceblue;
+    background-color: rgb(246, 8, 8);
+    font-size: 15px;
+    padding: 5px 8px;
+    
+    }
+    /* top banner */
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        padding:10px 20px 0 20px;
+        border-radius: 15px;
+    }
+    .banner-content h1{
+        font-size: 22px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        padding: 25px 50px;
+    }
+}
